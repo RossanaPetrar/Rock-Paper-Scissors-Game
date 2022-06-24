@@ -65,12 +65,12 @@ function renderGame() {
   mainEl.innerHTML = `
   <div class="container d-flex justify-content-center">
   <section class="p-3 m-5 text-center player">
-    <h3>User chose:</h3>
-    <p class="gameOption">${userResult}</p>
+    <h3>User chose</h3>
+    <p class="gameOption"><img src="images/${userResult}.png" alt="${userResult}"></p>
   </section>
   <section class="p-3 m-5 text-center player">
-    <h3>Computer chose:</h3>
-    <p class="gameOption">${pcResult}</p>
+    <h3>Computer chose</h3>
+    <p class="gameOption"><img src="images/${pcResult}.png" alt="${pcResult}"></p>
   </section>
 </div>
 <div class="container text-center">

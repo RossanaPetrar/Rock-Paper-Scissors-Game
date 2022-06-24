@@ -1,8 +1,35 @@
+$dark-mode-color-bck: #2b2741;
+$dark-mode-color-highlight: #363050;
+$light-mode-color-bkg: white;
+$light-mode-color-highlight: #efedf0;
+$accent-color-blue: #00e1d4;
+$accent-color-yellow: #ffe84a;
+$accent-color-pink: #ff4081;
+
+body {
+  background-color: $dark-mode-color-bck;
+  color: $light-mode-color-bkg;
+}
+
 .player {
   width: 20rem;
+  background-color: $dark-mode-color-highlight;
+  border-radius: 8px;
 }
 
 .gameOption {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: $accent-color-pink;
+  color: $light-mode-color-bkg;
+  border-color: $accent-color-pink;
+  border-color: $accent-color-pink;
+  box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.25);
 }

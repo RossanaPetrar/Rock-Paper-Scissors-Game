@@ -1,10 +1,29 @@
+body {
+  background-color: #2b2741;
+  color: white;
+}
+
 .player {
   width: 20rem;
+  background-color: #363050;
+  border-radius: 8px;
 }
 
 .gameOption {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #ff4081;
+  color: white;
+  border-color: #ff4081;
+  border-color: #ff4081;
+  box-shadow: 0 0 0 0.2rem rgba(255, 64, 129, 0.25);
 }
 
 /*# sourceMappingURL=style.css.map */
