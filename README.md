@@ -1,4 +1,4 @@
-# Rock Paper Scissors Game - Work In Progress
+# Rock Paper Scissors Game
 This is a simple Rock Paper Scissors game. when you press the "Let's play!" button, an option is chosen for the player and the computer, and the game tells you who won. You can press on the "Let's play!" button again, and new choices will pop up.
 
 ![Rock-paper-scissors-game](https://user-images.githubusercontent.com/97961954/175569434-49bf7d71-ccc2-41df-ac59-d2c9b9dfcc29.jpg)
